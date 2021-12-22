@@ -86,7 +86,8 @@ body {
         font-size: 44px;
     }
     h2 {
-        font: size 36px;
+        font-size: 36px;
+        display: inline;
     }
 
     .hero {
