@@ -1,6 +1,6 @@
 :root {
 
-    --branding-color: #6c63ff;
+    --branding-colour: #6c63ff;
     --secondary-colour: #f9f7fe;
     --heading-font-family: "Playfair Display", serif;
     --default-font-family: "Poppins", sans-serif;
@@ -22,6 +22,10 @@ h1 {
 h2 {
 
     font-size: 64px;
+}
+
+h4 {
+    font-size: 48px;
 }
 
 p {
@@ -83,7 +87,7 @@ body {
 }
 
 .btn-branding {
-    background: var(--branding-color);
+    background: var(--branding-colour);
     border-radius: 4px;
     color: white;
     font-size: 18px;
@@ -91,8 +95,8 @@ body {
     padding: 15px 30px;
 }
 .btn-branding-outline {
-    color: var(--branding-color);
-    border: 1px solid var(--branding-color);
+    color: var(--branding-colour);
+    border: 1px solid var(--branding-colour);
     border-radius: 4px;
     font-size: 18px;
     line-height: 27px;
@@ -106,6 +110,52 @@ body {
 .everysecond {
     background: var(--secondary-colour);
 }
+
+footer {
+
+    background-color: var(--secondary-colour);
+
+}
+
+footer .contact-box {
+    background: var(--secondary-colour);
+    padding: 60px;
+    border-radius: 10px;
+}
+
+footer .contact-box p {
+ margin: 0 0 0 15px;
+
+}
+
+footer .email-link {
+    text-decoration: none;
+    color: black;
+    font-size:24px;
+    text-align: center;
+}
+
+footer .email-link:hover {
+
+    color: var(--branding-colour);
+
+}
+
+footer .social-links a {
+
+    margin: 0 20px;
+    color: var(--branding-colour);
+    padding: 10px;
+    font-size: 18px;
+    transition: all 100ms ease-in-out;
+
+}
+
+footer .social-links a:hover {
+
+    color: black;
+}
+
 
 @media (max-width: 900px) {
 
