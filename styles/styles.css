@@ -24,7 +24,7 @@ h2 {
     font-size: 64px;
 }
 
-h4 {
+h3 {
     font-size: 48px;
 }
 
@@ -40,7 +40,7 @@ body {
 .hero {
     background: var(--secondary-colour);
     text-align: center;
-    padding: 168px 20px;
+    padding: 80px 20px;
 }
 
 .hero p {
@@ -65,7 +65,7 @@ body {
 }
 .content-container {
     font-size:34px;
-    padding: 168px 20px;
+    padding: 60px 20px;
 }
 
 .content-container p {
@@ -181,7 +181,9 @@ footer .social-links a:hover {
     .project-description {
         padding:0;
         text-align: center;
-        
- 
     }
-}
+
+    footer .emailfooter {
+        font-size: 24px;
+    }
+
